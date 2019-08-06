@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/calculations">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_calc"
+                    android:title="@string/standard_calc" />
+                <item
+                    android:id="@+id/nav_calc_cnc"
+                    android:title="@string/cnc_calc" />
+                <item
+                    android:id="@+id/nav_converter"
+                    android:title="@string/converter" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/info">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_threads"
+                    android:title="@string/threads" />
+                <item
+                    android:id="@+id/nav_tolerances"
+                    android:title="@string/tolerances" />
+                <item
+                    android:id="@+id/nav_gcodes"
+                    android:title="@string/gcodes" />
+                <item
+                    android:id="@+id/nav_calc_formulas"
+                    android:title="@string/calc_formulas" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/other">
+        <menu>
+            <group android:checkableBehavior="single">
+                <!--<item-->
+                    <!--android:id="@+id/nav_settings"-->
+                    <!--android:title="@string/settings" />-->
+                <item
+                    android:id="@+id/nav_about"
+                    android:title="@string/about" />
+            </group>
+        </menu>
+    </item>
+</menu>

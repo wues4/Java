@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.CountdownActivity"
+    tools:showIn="@layout/activity_countdown">
+
+    <EditText
+        android:id="@+id/notifyTitleET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/notifyTitle"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/notifyBodyET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/notifyTitleET"
+        android:ems="10"
+        android:hint="@string/notifyBody"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/countdownStartBtn"
+        android:onClick="countdownClick"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notifyBodyET"
+        android:layout_centerHorizontal="true"
+        android:text="@string/startBtn"
+        />
+
+    <EditText
+        android:id="@+id/notifyValueET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/countdownStartBtn"
+        android:ems="10"
+        android:hint="@string/notifyValue"
+        android:inputType="number"
+        />
+</RelativeLayout>

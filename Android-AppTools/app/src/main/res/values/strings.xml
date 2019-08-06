@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">App Tools</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="about">About</string>
+    <string name="tools">Tools</string>
+    <string name="action_save">Zapisz</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="startBtn">Start</string>
+    <string name="notifyTitle">tytuł powiadomienia</string>
+    <string name="notifyBody">zawartość powiadomienia</string>
+    <string name="notifyValue">czas w sekundach</string>
+    <string name="whichNumber">Którą liczbę pierwszą wyświetlić ? (max 10000)</string>
+    <string name="five">5</string>
+    <string name="lightlevel">Sensor światła:</string>
+    <string name="spiritlevel">Sensor poziomu:</string>
+    <string name="takephoto">Zrób zdjęcie</string>
+    <string name="gallery">Galeria</string>
+    <string name="google">google</string>
+
+    <string-array name="activities">
+        <item>Notatki</item>
+        <item>Odliczanie</item>
+        <item>Liczby pierwsze</item>
+        <item>Poziomica i światło</item>
+        <item>Rysuj</item>
+        <item>Aparat</item>
+    </string-array>
+</resources>

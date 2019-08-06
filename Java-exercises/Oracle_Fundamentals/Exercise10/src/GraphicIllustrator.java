@@ -1,0 +1,3 @@
+class GraphicIllustrator extends SkilledEmployee{
+
+}
